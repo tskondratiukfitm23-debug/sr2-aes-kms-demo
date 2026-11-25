@@ -1,0 +1,156 @@
+[
+  {
+    "type": "Текст (UTF-8)",
+    "file": "sample.txt",
+    "mode": "GCM",
+    "size": 19,
+    "enc_size": 212,
+    "overhead": 193,
+    "enc_ms": 0.5,
+    "dec_ms": 0.1,
+    "sha256_equal": true
+  },
+  {
+    "type": "Текст (UTF-8)",
+    "file": "sample.txt",
+    "mode": "CBC",
+    "size": 19,
+    "enc_size": 283,
+    "overhead": 264,
+    "enc_ms": 0.9,
+    "dec_ms": 0.3,
+    "sha256_equal": true
+  },
+  {
+    "type": "Текст ліцензії GPL-3",
+    "file": "GPL-3",
+    "mode": "GCM",
+    "size": 35149,
+    "enc_size": 35337,
+    "overhead": 188,
+    "enc_ms": 0.8,
+    "dec_ms": 0.3,
+    "sha256_equal": true
+  },
+  {
+    "type": "Текст ліцензії GPL-3",
+    "file": "GPL-3",
+    "mode": "CBC",
+    "size": 35149,
+    "enc_size": 35398,
+    "overhead": 249,
+    "enc_ms": 0.6,
+    "dec_ms": 0.2,
+    "sha256_equal": true
+  },
+  {
+    "type": "Зображення JPEG",
+    "file": "logopolito.jpg",
+    "mode": "GCM",
+    "size": 292349,
+    "enc_size": 292546,
+    "overhead": 197,
+    "enc_ms": 1.1,
+    "dec_ms": 0.6,
+    "sha256_equal": true
+  },
+  {
+    "type": "Зображення JPEG",
+    "file": "logopolito.jpg",
+    "mode": "CBC",
+    "size": 292349,
+    "enc_size": 292607,
+    "overhead": 258,
+    "enc_ms": 1.5,
+    "dec_ms": 1.0,
+    "sha256_equal": true
+  },
+  {
+    "type": "Документ PDF",
+    "file": "example-image-duck.pdf",
+    "mode": "GCM",
+    "size": 280685,
+    "enc_size": 280890,
+    "overhead": 205,
+    "enc_ms": 1.3,
+    "dec_ms": 0.6,
+    "sha256_equal": true
+  },
+  {
+    "type": "Документ PDF",
+    "file": "example-image-duck.pdf",
+    "mode": "CBC",
+    "size": 280685,
+    "enc_size": 280951,
+    "overhead": 266,
+    "enc_ms": 1.3,
+    "dec_ms": 0.8,
+    "sha256_equal": true
+  },
+  {
+    "type": "Документ DOCX (звіт СР1)",
+    "file": "Кондратюк_СР1_Комплексний_аудит_OWASP.docx",
+    "mode": "GCM",
+    "size": 1280742,
+    "enc_size": 1280994,
+    "overhead": 252,
+    "enc_ms": 2.9,
+    "dec_ms": 2.4,
+    "sha256_equal": true
+  },
+  {
+    "type": "Документ DOCX (звіт СР1)",
+    "file": "Кондратюк_СР1_Комплексний_аудит_OWASP.docx",
+    "mode": "CBC",
+    "size": 1280742,
+    "enc_size": 1281062,
+    "overhead": 320,
+    "enc_ms": 5.3,
+    "dec_ms": 5.3,
+    "sha256_equal": true
+  },
+  {
+    "type": "Бінарний файл .so (19 МБ)",
+    "file": "libswlo.so",
+    "mode": "GCM",
+    "size": 19557936,
+    "enc_size": 19558129,
+    "overhead": 193,
+    "enc_ms": 47.2,
+    "dec_ms": 42.7,
+    "sha256_equal": true
+  },
+  {
+    "type": "Бінарний файл .so (19 МБ)",
+    "file": "libswlo.so",
+    "mode": "CBC",
+    "size": 19557936,
+    "enc_size": 19558203,
+    "overhead": 267,
+    "enc_ms": 85.3,
+    "dec_ms": 96.4,
+    "sha256_equal": true
+  },
+  {
+    "type": "Бінарний файл .so (82 МБ)",
+    "file": "libmergedlo.so",
+    "mode": "GCM",
+    "size": 82459384,
+    "enc_size": 82459581,
+    "overhead": 197,
+    "enc_ms": 223.2,
+    "dec_ms": 223.3,
+    "sha256_equal": true
+  },
+  {
+    "type": "Бінарний файл .so (82 МБ)",
+    "file": "libmergedlo.so",
+    "mode": "CBC",
+    "size": 82459384,
+    "enc_size": 82459647,
+    "overhead": 263,
+    "enc_ms": 496.6,
+    "dec_ms": 536.2,
+    "sha256_equal": true
+  }
+]

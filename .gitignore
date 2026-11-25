@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+kms/keystore.json
+kms/audit.jsonl
+kms/.ks_*
+outputs/*.gcm
+outputs/*.cbc
+outputs/*.dec
+outputs/*.txt
+data/vault/
+data/*.bin

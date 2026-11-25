@@ -1,0 +1,164 @@
+[
+  {
+    "scenario": "GCM: зміна 1 біта шифртексту",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "gcm_tag"
+  },
+  {
+    "scenario": "GCM: зміна 1 біта тегу/MAC",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "gcm_tag"
+  },
+  {
+    "scenario": "GCM: зміна заголовка (created)",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "gcm_tag"
+  },
+  {
+    "scenario": "GCM: підміна nonce/IV",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "gcm_tag"
+  },
+  {
+    "scenario": "GCM: підміна AAD-контексту",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "gcm_tag"
+  },
+  {
+    "scenario": "GCM: очікуваний інший AAD",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "aad_mismatch"
+  },
+  {
+    "scenario": "GCM: підміна key_id",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "unknown_key_id"
+  },
+  {
+    "scenario": "GCM: downgrade режиму на ECB",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "bad_mode"
+  },
+  {
+    "scenario": "GCM: обрізання контейнера",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "gcm_tag"
+  },
+  {
+    "scenario": "GCM: дописування даних",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "gcm_tag"
+  },
+  {
+    "scenario": "CBC: зміна 1 біта шифртексту",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "cbc_mac"
+  },
+  {
+    "scenario": "CBC: зміна 1 біта тегу/MAC",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "cbc_mac"
+  },
+  {
+    "scenario": "CBC: зміна заголовка (created)",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "cbc_mac"
+  },
+  {
+    "scenario": "CBC: підміна nonce/IV",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "cbc_mac"
+  },
+  {
+    "scenario": "CBC: підміна AAD-контексту",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "cbc_mac"
+  },
+  {
+    "scenario": "CBC: очікуваний інший AAD",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "aad_mismatch"
+  },
+  {
+    "scenario": "CBC: підміна key_id",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "unknown_key_id"
+  },
+  {
+    "scenario": "CBC: downgrade режиму на ECB",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "bad_mode"
+  },
+  {
+    "scenario": "CBC: обрізання контейнера",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "cbc_mac"
+  },
+  {
+    "scenario": "CBC: дописування даних",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "cbc_mac"
+  },
+  {
+    "scenario": "CBC: bit-flipping amount=100→900",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "cbc_mac"
+  },
+  {
+    "scenario": "Шифртекст іншим (чужим) ключем",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "gcm_tag"
+  },
+  {
+    "scenario": "Випадкове сміття замість контейнера",
+    "result": "ВІДМОВА",
+    "exception": "ContainerError",
+    "reason": "bad_header_len"
+  },
+  {
+    "scenario": "Невірний master-пароль",
+    "result": "ВІДМОВА",
+    "exception": "BadPassword",
+    "reason": "-"
+  },
+  {
+    "scenario": "Повторний nonce у GCM",
+    "result": "ВІДМОВА",
+    "exception": "NonceReuseError",
+    "reason": "-"
+  },
+  {
+    "scenario": "Запит шифрування в режимі ECB",
+    "result": "ВІДМОВА",
+    "exception": "AKMSError",
+    "reason": "-"
+  },
+  {
+    "scenario": "Keystore зі слабким PBKDF2 (20 000 іт.)",
+    "result": "ВІДМОВА",
+    "exception": "WeakKdfError",
+    "reason": "-"
+  }
+]
